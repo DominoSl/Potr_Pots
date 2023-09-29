@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body class="page__body">
-    <header class="header">
+    <header class="header page__section">
       <div class="wrapper">
         <div class="header__content">
           <div class="header__top">
@@ -38,11 +38,18 @@
         alt="POTR-pot example photo"
       >
 
-      <div class="wrapper">
+      <div class="wrapper header__wrapper">
         <h1 class="header__title">
           POTR ~ Eco,
-          self-<span class="header__title--accent">watering, origami</span>
-          plant <span class="header__title--accent">pots</span>
+          <br>
+          self-
+          <span class="header__title--accent">watering,
+            <br>
+            origami
+          </span>
+          plant
+          <br>
+          <span class="header__title--accent">pots</span>
 
         </h1>
 
@@ -58,14 +65,32 @@
           </p>
 
           <a href="#" class="button">Buy now</a>
-        </div>
 
-        <a href="#" class="header__more">More about POTR POTS</a>
+          <a href="#" class="header__action-more">More about  POTR POTS</a>
+        </div>
       </div>
     </header>
 
-    <aside class="menu">
-
+    <aside class="menu" id="menu">
+      <nav class="menu__content">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Basket</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Features</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Materials</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">About us</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Message us</a>
+          </li>
+        </ul>
+      </nav>
     </aside>
 
     <main class="main">
