@@ -1,4 +1,9 @@
 .potr-team {
+  background-image: url(../images/background-yellow.svg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 58px;
+
   &__title {
     margin-bottom: 25px;
     color: var(--Gray-1, #333);
@@ -15,10 +20,14 @@
   }
 
   &__text {
-    margin: 0 0 24px;
+    margin: 0;
     color: var(--Gray-2, #4f4f4f);
     font-family: $ff-manrope;
     font-size: 16px;
     line-height: 23.8px;
+
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
   }
 }
