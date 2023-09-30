@@ -1,0 +1,22 @@
+
+.features {
+  &__title {
+    margin: 0 0 22px;
+    font-family: $ff-bebas-neue;
+    font-size: 60px;
+    line-height: 1.18;
+    letter-spacing: 6.14px;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-text-stroke: 1px $c-torquise;
+    
+    &--accent {
+      -webkit-text-stroke: 0;
+      color: $c-torquise;
+    }
+  }
+
+  &__feature {
+    margin-bottom: 70px;
+  }
+}

@@ -1,0 +1,28 @@
+.button {
+  display: block;
+  max-width: 240px;
+  padding: 14px 0 14px 74px;
+  text-decoration: none;
+  color: #121212;
+  background-color: $c-yellow;
+  text-transform: uppercase;
+  font-family: $ff-manrope;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%;
+
+  position: relative;
+  
+  &::after {
+    content: "";
+    display: block;
+    width: 44px;
+    height: 8px;
+    position: absolute;
+    top: 50%;
+    transform: translate(180%, -50%);
+    background-image: url(../images/icons/icon-arrow-right.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

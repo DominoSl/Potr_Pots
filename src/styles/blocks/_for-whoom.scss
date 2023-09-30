@@ -1,0 +1,59 @@
+.for-whoom {
+  &__title {
+    margin-bottom: 25px ;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__list-item {
+    margin-bottom: 72px;
+    
+    &::before {
+      content: "";
+      display: block;
+      width: 32px;
+      height: 46px;
+
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &--first::before {
+      background-image: url(../images/icons/icon-first.svg);
+    }
+
+    &--second::before {
+      background-image: url(../images/icons/icon-second.svg);
+    }
+
+    &--third::before {
+      background-image: url(../images/icons/icon-third.svg);
+    }
+  }
+
+  &__list-title {
+    margin-bottom: 20px;
+
+    color: #000;
+    font-family: $ff-bebas-neue;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 54px */
+    letter-spacing: 5.58px;
+    text-transform: uppercase;
+  }
+
+  &__list-text {
+    color: #4f4f4f;
+    font-family: $ff-manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+}
